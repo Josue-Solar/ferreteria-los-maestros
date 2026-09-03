@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Detalle de Producto - Ferretería Los Maestros</title>
+
+		<link rel="stylesheet" href="css/PropuestaMaestros2.css">
+	</head>
+	<body>
+
+		<header id="encabezado">
+			<h1>Ferretería Los Maestros <img src="img/madera.png" alt="Logo Ferretería Los Maestros" width="50" height="50"></h1>
+			<p>Detalle de producto</p>
+
+			<nav id="menu-principal">
+				<ul>
+                    <li><a href="carrito.html">🛒 Carrito (<span id="carrito-contador">0</span>)</a></li>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="login.html">Iniciar sesión</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="contenido">
+			<section id="detalle-producto" class="seccion">
+
+				<p><a href="productos.html" class="btn-ver">‹ Volver al catálogo</a></p>
+
+				<article class="tarjeta" style="max-width: 500px; margin: 0 auto;">
+					<div id="producto-imagen" class="espacio-imagen"></div>
+
+					<h2 id="producto-nombre">Cargando...</h2>
+					<p id="producto-descripcion"></p>
+					<p class="precio" id="producto-precio"></p>
+
+					<div id="detalle-interactivo">
+						<label for="cantidad">Cantidad:</label>
+						<input type="number" id="cantidad" min="1" value="1" style="width: 60px;">
+
+						<p id="producto-total"></p>
+
+						<button type="button" id="btn-agregar" class="btn-ver" style="border:none; cursor:pointer; font-size:16px;">Agregar al carrito</button>
+
+						<p id="mensaje-carrito" style="display:none; margin-top:10px; font-weight:bold;"></p>
+					</div>
+				</article>
+
+			</section>
+		</main>
+
+		<footer id="pie" class="footer">
+			<p><small>&copy; 2026 Ferretería Los Maestros - Todos los derechos reservados</small></p>
+		</footer>
+
+		<script src="js/carrito.js"></script>
+		<script src="js/producto.js"></script>
+	</body>
+</html>

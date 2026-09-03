@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Carrito de Compras - Ferretería Los Maestros</title>
+
+		<link rel="stylesheet" href="css/PropuestaMaestros2.css">
+	</head>
+	<body>
+
+		<header id="encabezado">
+			<h1>Ferretería Los Maestros <img src="img/madera.png" alt="Logo Ferretería Los Maestros" width="50" height="50"></h1>
+			<p>Tu carrito de compras</p>
+
+			<nav id="menu-principal">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="login.html">Iniciar sesión</a></li>
+					<li><a href="carrito.html">🛒 Carrito (<span id="carrito-contador">0</span>)</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="contenido">
+			<section id="seccion-carrito" class="seccion">
+				<h2 class="titulo">Tu Carrito</h2>
+
+				<div id="carrito-vacio" style="display:none;">
+					<p class="titulo">Tu carrito está vacío. <a href="productos.html">Ver productos</a></p>
+				</div>
+
+				<div id="carrito-items" class="galeria"></div>
+
+				<div id="carrito-resumen" style="text-align:center; margin-top:20px;">
+					<p class="precio" id="carrito-total"></p>
+					<button type="button" id="btn-pagar" class="btn-ver" style="border:none; cursor:pointer; font-size:16px;">Simular pago</button>
+				</div>
+
+				<p id="mensaje-pago" style="display:none; text-align:center; margin-top:15px; font-weight:bold;"></p>
+			</section>
+		</main>
+
+		<footer id="pie" class="footer">
+			<p><small>&copy; 2026 Ferretería Los Maestros - Todos los derechos reservados</small></p>
+		</footer>
+
+		<script src="js/carrito.js"></script>
+		<script src="js/carrito-pagina.js"></script>
+	</body>
+</html>

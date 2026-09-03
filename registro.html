@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferretería Los Maestros - Contacto</title>
+    <link rel="stylesheet" href="css/PropuestaMaestros2.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header id="encabezado">
+        <h1>Ferreteria Los Maestros <img src="img/fierro.png" alt="logo de la pagina" width="50" height="50"></h1>
+        <p>La sección de formulario para Nuestro cliente</p>
+
+        <!-- MENU -->
+        <nav id="menu-principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="registro.html">Registrarse</a></li>
+                <li><a href="login.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main id="contenido">
+        
+        <!-- FORMULARIO CON CLASE REGISTRO -->
+        <section class="registro">
+            <h2 class="titulo">Formulario de Contacto</h2>
+            
+            <form name="contacto" id="form-contacto">
+                
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" required id="nombre" placeholder="Ingrese su nombre">
+                </p>
+
+                <p>
+                    <label for="edad">Edad:</label>
+                    <input type="number" required id="edad" placeholder="Ingrese su edad" min="18">
+                </p>
+
+                <p>
+                    <label for="fon">Teléfono:</label>
+                    <input type="tel" required id="fon" placeholder="+56912345678">
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" required id="correo" placeholder="ejemplo@gmail.com">
+                </p>
+
+                <p>
+                    <label for="fenac">Fecha nacimiento:</label>
+                    <input type="date" required id="fenac">
+                </p>
+
+                <!-- BOTÓN DE ENVÍO -->
+                <button type="submit">Registrarse</button>
+                
+            </form>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <p>&copy; 2026 Ferretería Los Maestros - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

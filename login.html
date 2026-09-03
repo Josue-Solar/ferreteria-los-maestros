@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferretería Los Maestros - Login</title>
+    <link rel="stylesheet" href="css/PropuestaMaestros2.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header id="encabezado">
+        <h1>Ferreteria Los Maestros <img src="img/fierro.png" alt="Logo de la pagina" width="50" height="50"></h1>
+        <p>Sección de inicio de sesión</p>
+
+        <!-- MENU -->
+        <nav id="menu-principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="registro.html">Registrarse</a></li>
+                <li><a href="login.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main id="contenido">
+        
+        <!-- FORMULARIO DE LOGIN CON SUS CLASES Y ID DEL CSS -->
+        <form id="login" class="login">
+            <fieldset style="border: none; padding: 0; margin: 0;">
+                
+                <legend>Inicio de sesión</legend>
+
+                <p>
+                    <label for="usuario">Usuario:</label>
+                    <input
+                        type="text"
+                        id="usuario"
+                        placeholder="Ingrese su usuario"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="password">Contraseña:</label>
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Ingrese su contraseña"
+                        required
+                    >
+                </p>
+
+                <!-- BOTÓN QUE HEREDA EL ESTILO DE .login button -->
+                <button type="submit">INGRESAR</button>
+
+            </fieldset>
+        </form>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer id="pie" class="footer">
+        <p><small>&copy; 2026 Ferretería Los Maestros - Todos los derechos reservados</small></p>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="js/LoginScript.js"></script>
+
+</body>
+</html>

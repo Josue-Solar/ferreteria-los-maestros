@@ -1,0 +1,123 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+                 'Lucida Sans', Arial, sans-serif;
+    background-color: tan;
+    margin: 0;
+}
+
+.seccion {
+    background-color: rgb(156, 131, 98);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.tarjeta {
+    height: auto;
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(230, 204, 171);
+    text-align: left;
+}
+
+.espacio-imagen {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.espacio-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.tarjeta h3 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.tarjeta p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.precio {
+    font-size: 24px !important;
+    font-weight: bold;
+    color: rgb(100, 81, 55);
+}
+#encabezado{
+    background-color: rgb(230, 204, 171);
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-principal ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.menu-principal ul li a{
+    background-color: rgb(100, 81, 55);
+    text-decoration: none;
+    color: aliceblue;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+}
+
+.tarjeta {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.carrusel {
+    display: flex;
+    overflow-x: auto;
+    border-radius: 8px;
+}
+
+.carrusel_item {
+    flex-shrink: 0;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.carrusel::-webkit-scrollbar {
+    display: none;
+}
+
+.carrusel_wrapper{
+    position: relative;
+}
+
+.flecha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 24px;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.izquierda { 
+    left: 10px; 
+}
+.derecha {
+    right: 10px; 
+}
