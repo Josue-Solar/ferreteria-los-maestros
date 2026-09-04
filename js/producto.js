@@ -37,40 +37,40 @@ document.addEventListener('DOMContentLoaded', function () {
 			imagen: 'img/Taladro_percutor.jpg',
 			descripcion: 'Perfora madera, metal y hormigón con velocidad variable. Incluye mango auxiliar y tope de profundidad.'
 		},
-		'llave-paso-pvc': {
+				'llave-paso-pvc': {
 			nombre: 'Llave de Paso PVC 1/2"',
 			precio: 2990,
-			imagen: null,
+			imagen: 'img/llave_paso1,,2.jpg',
 			descripcion: 'Para instalaciones de agua potable, cierre hermético. Resistente a la corrosión.'
 		},
 		'cinta-aislante': {
 			nombre: 'Cinta Aislante Eléctrica (Pack 5un)',
 			precio: 3490,
-			imagen: null,
+			imagen: 'img/CintaAislante_Electrica5unidades.webp',
 			descripcion: 'Aislación segura para conexiones e instalaciones eléctricas. Resistente a la humedad.'
 		},
 		'saco-cemento': {
 			nombre: 'Saco de Cemento 25kg',
-			precio: 6490,
-			imagen: null,
+			precio: 5490,
+			imagen: 'img/SacoCemento25kg.webp',
 			descripcion: 'Ideal para obras menores, reparaciones y trabajos de albañilería.'
 		},
 		'barniz-madera': {
 			nombre: 'Barniz Protector para Madera 1L',
 			precio: 8990,
-			imagen: null,
+			imagen: 'img/BarnizProtector.webp',
 			descripcion: 'Protege y realza el color natural de la madera. Secado rápido.'
 		},
 		'destornillador-set': {
 			nombre: 'Set de Destornilladores Phillips y Plano (6 piezas)',
 			precio: 5990,
-			imagen: null,
+			imagen: 'img/Desatornilladoresphillips.webp',
 			descripcion: 'Puntas magnetizadas y mangos ergonómicos para uso general.'
 		},
 		'huincha-medir': {
 			nombre: 'Huincha de Medir 5m',
 			precio: 3990,
-			imagen: null,
+			imagen: 'img/Huincha_medir5M.webp',
 			descripcion: 'Cinta métrica de 5 metros con freno automático y carcasa resistente a caídas.'
 		}
 	};
