@@ -291,21 +291,7 @@ body {
 }
 
 
-/* VOLVER */
 
-.vueltaInicio img {
-    position: fixed;
-
-    bottom: 25px;
-
-    left: 25px;
-
-    width: auto;
-
-    height: 70px;
-
-    border-radius: 20px;
-}
 
 /*A partir de aca esto salio medio he.... */
 /* Sona Responsiva */
